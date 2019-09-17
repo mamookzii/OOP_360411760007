@@ -7,9 +7,10 @@ public class ex2 {
 
         double testScore;
         Scanner sc = new Scanner(System.in);
-        System.out.print("Enter your numeric test score and I will tell you the grade: ");
 
+        System.out.print("Enter your numeric test score and I will tell you the grade: ");
         testScore = sc.nextDouble();
+
         if (testScore <= 49.99)
             System.out.println("Your grade is F.");
         else  if (testScore <= 54.99)

@@ -1,5 +1,5 @@
 package Lab7;
-
+//สอบ final ไม่จำเป็นต้องพิมใช้ทางลัดได้เลย
 public class SuperCar {
 
     private String carBrand;
@@ -9,7 +9,6 @@ public class SuperCar {
     private String countryOfOrigin; //มาจากประเทศไหน
 
     public SuperCar(){}
-
     //constructor ไม่ทำอะไรใช้ในการสร้างobject เฉยๆ
     public  SuperCar(String carBrand,String carColor,int carEngineSize,String maxSpeed,String countryOfOrigin){
         this.carBrand = carBrand;
@@ -18,6 +17,7 @@ public class SuperCar {
         this.maxSpeed = maxSpeed;
         this.countryOfOrigin = countryOfOrigin;
     }
+
 //getter,setter
     public  String getCarBrand(){
         return this.carBrand;
